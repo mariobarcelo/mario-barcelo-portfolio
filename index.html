@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet"> 
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Mario Barceló</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <div class="wrapper">
+        <span class="logo-container">
+          <img class="logo" src="./img/mario-barcelo-logo.png" alt="Mario Barceló logo">
+        </span>
+
+        <nav class="nav center">
+          <ul class="nav__list center">
+            <li class="nav__list-item">
+              <a class="link link--nav" href="#projects">Projects</a>
+            </li>
+            <li class="nav__list-item">
+              <a class="link link--nav" href="#skills">Stack</a>
+            </li>
+            <li class="nav__list-item">
+              <a class="link link--nav" href="#contact">Get in touch</a>
+            </li>
+          </ul>
+
+          <button type="button" aria-label="toggle theme" class="menu-item">
+            <i aria-hidden="true" id="button-theme" class="fas fa-moon"></i>
+          </button>
+
+          <button
+            type="button"
+            aria-label="toggle navigation"
+            class="nav__hamburger menu-item"
+          >
+            <i aria-hidden="true" class="fas fa-bars"></i>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="wrapper">
+        <div class="main__content">
+          <!-- hero -->
+          <section class="hero center">
+            <div class="hero__container">
+              <div class="hero__left">
+                <h1>Hi, I'm <span class="hero__name">Mario Barceló</span></h1>
+                <h2 class="hero__role">An ever-growing Front-end Developer</h2>
+                <div class="hero__desc">
+                  <p>👨🏻‍💻 A Front-end Developer with solid knowledge in HTML, CSS and JavaScript.</p>
+                  <p>💪🏼 A devoted team player with strong problem-solving abilities and good taste in design.</p>
+                  <p>✅ Perfect fit: a company where I can make meaningful contributions and consolidate as a developer.</p>
+                </div>
+              </div>
+      
+              <div class="hero__right">
+                <img class="profile-photo" src="./img/mario-barcelo-profile.png" alt="Mario Barceló Profile">
+              </div>
+            </div>
+
+            <div class="hero__contact center">
+              <a href="#">
+                <span class="button button-primary">Have a look</span>
+              </a>
+
+              <a href="#">
+                <span class="button button--outline">Get in touch</span>
+              </a>
+            </div>
+          </section>
+
+          <!-- Skills -->
+          <section class="section skills" id="skills">
+            <h2 class="section__title">Stack</h2>
+            <div class="section__description">
+              <p>Current challenge: Diving deeper in the waters of JavaScript.</p>
+              <p>Next step: embarking on React.</p>
+            </div>
+            <ul class="skills__list">
+              <li class="skills__list-item"><img src="./img/HTML5.png" alt="HTML5 Logo"></li>
+              <li class="skills__list-item"><img src="./img/CSS3.png" alt="CSS3 Logo"></li>
+              <li class="skills__list-item"><img src="./img/JavaScript.png" alt="JavaScript Logo"></li>
+              <li class="skills__list-item"><img src="./img/Git.png" alt="Git Logo"></li>
+            </ul>
+          </section>
+
+          <!-- Projects -->
+          <section id="projects" class="section projects">
+            <h2 class="section__title">Projects</h2>
+            <div class="section__description">
+              <p>'Hands-on is minds-on'. This is how I see coding; you need to get your hands dirty, but there is worthwhile learning in the end. Here are some of my latest projects:</p>
+            </div>
+            <div class="projects__grid">
+              <div class="project">
+                <h3>MovieScore</h3>
+                <p class="project__description">
+                  Don't waste your time, choose your next movie here! MovieScore fetches info from an API and shows TV series and film scores to its users, helping them to make informed decisions.
+                </p>
+                <ul class="project__stack">
+                  <li class="project__stack-item">HTML & CSS</li>
+                  <li class="project__stack-item">JavaScript</li>
+                  <li class="project__stack-item">Fetch API</li>
+                </ul>
+
+                <a
+                  href="https://github.com/MarioBarceloDev/moviescore"
+                  target="_blank"
+                  aria-label="source code"
+                  class="link link--icon"
+                >
+                  <i aria-hidden="true" class="fab fa-github"></i>
+                </a>
+                <a
+                  href="https://mariobarcelodev.github.io/moviescore/"
+                  target="_blank"
+                  aria-label="live preview"
+                  class="link link--icon"
+                >
+                  <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+
+              <div class="project">
+                <h3>Marvol Store</h3>
+                <p class="project__description">
+                  Make your favourite superheroes part of your everyday life. Marvol is the ideal animated landing page for selling unique limited products.
+                </p>
+                <ul class="project__stack">
+                  <li class="project__stack-item">HTML & CSS</li>
+                  <li class="project__stack-item">CSS Grid</li>
+                  <li class="project__stack-item">Animations</li>
+                </ul>
+
+                <a
+                  href="https://github.com/MarioBarceloDev/marvol-store"
+                  target="_blank"
+                  aria-label="source code"
+                  class="link link--icon"
+                >
+                  <i aria-hidden="true" class="fab fa-github"></i>
+                </a>
+                <a
+                  href="https://mariobarcelodev.github.io/marvol-store/"
+                  target="_blank"
+                  aria-label="live preview"
+                  class="link link--icon"
+                >
+                  <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+
+              <div class="project">
+                <h3>Spotifu</h3>
+                <p class="project__description">
+                  Music everywhere from anywhere! Spotifu is a visual recreation of one of the most popular audio streaming platforms in the world.
+                </p>
+                <ul class="project__stack">
+                  <li class="project__stack-item">HTML & CSS</li>
+                  <li class="project__stack-item">CSS Grid</li>
+                  <li class="project__stack-item">CSS Modules</li>
+                </ul>
+
+                <a
+                  href="https://github.com/MarioBarceloDev/spotifu"
+                  target="_blank"
+                  aria-label="source code"
+                  class="link link--icon"
+                >
+                  <i aria-hidden="true" class="fab fa-github"></i>
+                </a>
+                <a
+                  href="https://mariobarcelodev.github.io/spotifu/"
+                  target="_blank"
+                  aria-label="live preview"
+                  class="link link--icon"
+                >
+                  <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+          </section>
+
+          <!-- About Me-->
+          <section class="section about-me">
+            <h2 class="section__title">About Me</h2>
+            <div class="about-me__container">
+              <div class="about-me__left">
+                <p>Almost accidentally, my curiosity and eagerness to learn have led me to the challenging world of making designs alive through code while taking care of little details. It was actually a good friend of mine that introduced me to this profession, almost three years ago.</p>
+                <p>Now, I see it as the perfect ecosystem where my love for handcrafting, my passion for helping others and my determination to overcome problems intertwined harmoniously.</p>
+                <p>I believe that my enthusiasm and perseverance will keep me on the right path during this exciting journey of coding.</p>
+              </div>
+              <div class="about-me__right">
+                <img src="./img/mario-barcelo-about-me.jpg" alt="Mario Barceló About Me">
+              </div>
+            </div>
+          </section>
+          
+          <!-- Contact -->
+          <section class="section contact center" id="contact">
+            <h2 class="section__title">Get in touch</h2>
+            <div class="section__description">
+              <p>Do you think that I could be a valuable incorporation to your company? If so, let’s talk!</p>
+            </div>
+            <a href="mailto:hola@mariobarcelo.dev">
+              <span class="button button-primary">Email me</span>
+            </a>
+          </section>
+      </div>
+    </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="wrapper">
+        <div class="footer__container">
+
+          <div class="footer__credits">
+            <p><a href="#" rel="noopener noreferrer" target="_blank" class="link">
+              See the source code
+            </a></p>
+          </div>
+          
+          <div class="footer__love">
+            Made with <span class="heart"></span> by Mario
+          </div>
+
+          <div class="footer__social">
+            <a
+              href="https://github.com/MarioBarceloDev"
+              target="_blank"
+              aria-label="github"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+      
+            <a
+              href="https://linkedin.com/in/mariobarcelo"
+              target="_blank"
+              aria-label="linkedin"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-linkedin"></i>
+            </a>
+
+            <a
+              href="https://twitter.com/in/MarioBarceloDev"
+              target="_blank"
+              aria-label="twitter"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
