@@ -533,6 +533,10 @@ button {
     gap: 20px;
   }
 
+  .hero__left {
+    min-inline-size: unset;
+  }
+
   .hero__right img {
     display: none;
   }
