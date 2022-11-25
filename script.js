@@ -74,3 +74,12 @@ heart.addEventListener("click", heartToggle);
 function heartToggle() {
 	heart.classList.toggle("heart-animation");
 }
+
+function initialSetup() {
+	if (body.classList.contains("null")) {
+		console.log("initialsetup!");
+		setTheme("light", "light");
+	}
+}
+
+initialSetup();
