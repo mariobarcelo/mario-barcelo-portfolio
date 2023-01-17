@@ -316,7 +316,7 @@ button {
 }
 
 .skills__list {
-	max-width: 450px;
+	max-width: 900px;
 	width: 95%;
 	margin: 0 auto;
 	display: flex;
@@ -330,6 +330,9 @@ button {
 
 .skills__list-item img {
 	block-size: 80px;
+	aspect-ratio: 1 / 1;
+	object-fit: contain;
+	vertical-align: middle;
 }
 
 .projects__grid {
@@ -343,7 +346,7 @@ button {
 
 .project {
 	max-width: 350px;
-	padding: 2em;
+	padding: 1.5em;
 	border-radius: 5px;
 	text-align: center;
 	box-shadow: var(--shadow);
