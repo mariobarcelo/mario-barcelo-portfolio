@@ -1,6 +1,8 @@
 const body = document.body;
 const getBodyTheme = sessionStorage.getItem("portfolio-theme");
-const getButtonTheme = sessionStorage.getItem("portfolio-button-theme");
+const getButtonTheme = sessionStorage.getItem(
+	"portfolio-button-theme"
+);
 const buttonTheme = document.querySelector(".fa-moon");
 const buttonHamburger = document.querySelector(".fa-bars");
 const profilePhoto = document.querySelector(".profile-photo");
@@ -28,20 +30,28 @@ function changeProfilePhoto(bodyClass) {
 			"./img/mario-barcelo-profile-dark-mode.png"
 		);
 	} else {
-		profilePhoto.setAttribute("src", "./img/mario-barcelo-profile.png");
+		profilePhoto.setAttribute(
+			"src",
+			"./img/mario-barcelo-profile.png"
+		);
 	}
 }
 
 function changeLogo(bodyClass) {
 	if (bodyClass == "dark") {
-		logo.setAttribute("src", "./img/mario-barcelo-logo-dark-mode.png");
+		logo.setAttribute(
+			"src",
+			"./img/mario-barcelo-logo-dark-mode.png"
+		);
 	} else {
 		logo.setAttribute("src", "./img/mario-barcelo-logo.png");
 	}
 }
 
 const toggleTheme = () =>
-	isDark() ? setTheme("light", "fa-moon") : setTheme("dark", "fa-sun");
+	isDark()
+		? setTheme("light", "fa-moon")
+		: setTheme("dark", "fa-sun");
 
 const displayList = () => {
 	const navUl = document.querySelector(".nav__list");
@@ -61,7 +71,8 @@ buttonTheme.addEventListener("click", toggleTheme);
 buttonHamburger.addEventListener("click", displayList);
 
 const setBodyTheme = () => body.classList.add(getBodyTheme);
-const setButtonTheme = () => buttonTheme.classList.add(getButtonTheme);
+const setButtonTheme = () =>
+	buttonTheme.classList.add(getButtonTheme);
 
 setBodyTheme();
 setButtonTheme();
