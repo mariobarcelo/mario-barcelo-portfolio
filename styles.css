@@ -24,7 +24,7 @@ html {
 }
 
 body {
-	font-family: "Rubik", sans-serif;
+	font-family: 'Rubik', sans-serif;
 	line-height: 1.5;
 	color: var(--clr-fg);
 	background-color: var(--clr-bg);
@@ -455,7 +455,7 @@ button {
 }
 
 .heart {
-	background-image: url("./img/heart-icon.png");
+	background-image: url('./img/heart-icon.png');
 	background-size: auto 50px;
 	cursor: pointer;
 	height: 50px;
