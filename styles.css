@@ -492,6 +492,13 @@ button {
 	transition: transform 0.2s ease-in-out;
 }
 
+.made-with {
+	transform: translateX(10px);
+}
+.by-Mario {
+	transform: translateX(-10px);
+}
+
 @media (max-width: 768px) {
 	.header {
 		height: 6em;
