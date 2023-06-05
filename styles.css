@@ -387,6 +387,11 @@ button {
 	margin-left: 0.5em;
 }
 
+.see-more-projects {
+	text-align: center;
+	margin-top: 50px;
+}
+
 .about-me h2 {
 	text-align: center;
 	margin-block-end: 20px;
